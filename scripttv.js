@@ -678,11 +678,32 @@
         category: "News"
       },
 {
-name: 'COLORS TV',
-        manifestUri: 'https://tv.jomarhost.xyz/80bf754f-d8ff-4936-8409-451a921f95be.m3u8',
+name: 'GMA TV',
+        manifestUri: 'https://gma.fflame143.workers.dev/master.m3u8',
         type: 'hls',
-		logo: 'https://i.imgur.com/C7a9W27.png',
+		logo: 'https://i.imgur.com/yh8g68M.png',
 	        category: "Local"
+      },
+{
+name: 'GTV',
+        manifestUri: 'https://gtv.fflame143.workers.dev/master.m3u8',
+        type: 'hls',
+		logo: 'https://i.imgur.com/PsyP7Ga.jpeg',
+	        category: "Local"
+      },
+{
+name: 'GTV',
+        manifestUri: 'https://alltv.fflame143.workers.dev/master.m3u8',
+        type: 'hls',
+		logo: 'https://i.imgur.com/YRA5Vz4.jpeg',
+	        category: "Local"
+      },
+{
+name: 'Net 25',
+        manifestUri: 'https://net25.fflame143.workers.dev/master.m3u8',
+        type: 'hls',
+		logo: 'https://i.imgur.com/2pRBUrH.png',
+	        category: "Local"                
 	      },
   {
         name: 'HallyPop',
@@ -711,14 +732,14 @@ name: 'COLORS TV',
         name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
         type: 'hls',
-        manifestUri: 'nosignal.m3u8',
+        manifestUri: 'https://nosignal.m3u8',
         category: "NBA LEAGUE PASS"
 	      },
   {
         name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
         type: 'hls',
-        manifestUri: 'nosignal.m3u8',
+        manifestUri: 'https://nosignal.m3u8',
         category: "NBA LEAGUE PASS"
       },
 
