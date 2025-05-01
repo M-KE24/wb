@@ -692,27 +692,41 @@ name: 'COLORS TV',
         category: "Local"
       },
 {
-        name: 'PILIPINAS LIVE 1',
+        name: 'Pilipinas Live 1',
         logo: 'https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi1.mpd',
         clearKey: { 'a913faeecaac4813a55240bea0c68858': '05b7d7eaba8d6410dbe234336d9b235a' },
-        category: "PILIPINAS LIVE"
+        category: "Pilipinas Live"
 	      },
 {
-        name: 'PILIPINAS LIVE 2',
+        name: 'Pilipinas Live 2',
         logo: 'https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_sdi2.mpd',
         clearKey: { '2f3056cac18d4e31a59de39767042b03': '83728946b898141ae411572f9f5fce0d' },
-        category: "PILIPINAS LIVE"
+        category: "Pilipinas Live"
+	      },
+  {
+        name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
+        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
+        type: 'hls',
+        manifestUri: 'nosignal.m3u8',
+        category: "NBA LEAGUE PASS"
+	      },
+  {
+        name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
+        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
+        type: 'hls',
+        manifestUri: 'nosignal.m3u8',
+        category: "NBA LEAGUE PASS"
       },
 
     
     ];
 
     const categories = [
-      "Local", "Sports", "News", "Movies", "Kids", "Educational and Documentary", "Lifestyle","PILIPINAS LIVE"
+      "Local", "Sports", "News", "Movies", "Kids", "Educational and Documentary", "Lifestyle","Pilipinas Live","NBA LEAGUE PASS"
     ];
 
 
