@@ -732,14 +732,14 @@ name: 'Net 25',
         name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
         type: 'hls',
-        manifestUri: 'https://nosignal.m3u8',
+        manifestUri: 'https://v15.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         category: "NBA LEAGUE PASS"
 	      },
   {
         name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
         type: 'hls',
-        manifestUri: 'https://nosignal.m3u8',
+        manifestUri: 'https://v15.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         category: "NBA LEAGUE PASS"
       },
 
