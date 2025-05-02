@@ -996,3 +996,4 @@
     renderPlusMovies();
     renderChannelCategories();
     switchTab('home');
+}
