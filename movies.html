@@ -28,50 +28,8 @@
                 <!-- Channel items will be populated by JavaScript -->
             </ul>
         </div>
-    </div>
-    <script>
+    </div>    
 	    
-        document.addEventListener("DOMContentLoaded", async () => {
-            const video = document.getElementById('player');
-            const youtubeEmbed = document.getElementById('youtube-player');
-            const searchInput = document.querySelector('.search-input');
-            const channelList = document.getElementById('channelList');
-            
-            let currentChannel = null;
-            let shakaPlayer = null;
-            let hlsPlayer = null;
-
-            // Initialize Shaka Player
-            shaka.polyfill.installAll();
-
-            function initializeShakaPlayer() {
-                if (shakaPlayer) {
-                    shakaPlayer.destroy();
-                }
-                shakaPlayer = new shaka.Player(video);
-                shakaPlayer.addEventListener('error', (error) => {
-                    console.error('Shaka Player Error:', error);
-                });
-                return shakaPlayer;
-            }
-
-            function initializeHLSPlayer() {
-                if (hlsPlayer) {
-                    hlsPlayer.destroy();
-                }
-                if (Hls.isSupported()) {
-                    hlsPlayer = new Hls({
-                        enableWorker: true,
-                        lowLatencyMode: true
-                    });
-                    hlsPlayer.attachMedia(video);
-                    hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
-                        console.error('HLS.js Error:', data);
-                    });
-                    return hlsPlayer;
-                }
-                return null;
-            }
 <div id="337568128777264851" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div class="panel-default clearfix" style="background-image:
 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjE43i2XXWJnHseUNY8eqys0_2vl7pD-fCpw&usqp=CAU');
 background-repeat: no-repeat; background-size: 100% 100%; height:
