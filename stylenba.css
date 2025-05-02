@@ -12,6 +12,7 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
+        }
         #body {
             font-family: Arial, verdana;
             background: #1a1a1a;
