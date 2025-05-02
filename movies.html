@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>flow+</title>
+  <link rel="icon" href="https://imgur.com/ZCslJnW.png" type="image/x-icon" />
+  <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shaka-player@latest/dist/controls.css" />
+  <script src="https://cdn.jsdelivr.net/npm/shaka-player@latest/dist/shaka-player.ui.debug.js"></script>
+  <link rel="stylesheet" href="stylemv.css" />
+  <script src="scriptmv.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="logo">flow+</div>
+    <div class="topbar-icons">
+      <span class="material-symbols-outlined" id="searchBtn" title="Search">search</span>
+      <span class="material-symbols-outlined" title="Profile">account_circle</span>
+    </div>
+  </div>
+  <main>
+    <div class="main-content" id="homeSection">
+      <div class="slider-section">
+        <div class="slider-title">Suggested for You</div>
+        <div class="slider-bar" id="sliderBar">
+          <div class="slider-bar-inner" id="sliderBarInner"></div>
+          <div class="slider-bar-dots" id="sliderBarDots"></div>
+        </div>
+      </div>
+      <div class="section-title">TOP CHANNELS</div>
+      <div class="horizontal-list" id="topChannelsRow"></div>
+      <div class="section-title">TOP MOVIES/SERIES</div>
+      <div class="horizontal-list" id="topMoviesRow"></div>
+    </div>
+    <div class="plus-page" id="plusPage">
+      <div class="plus-header">Streaming Services</div>
+      <div class="services-row" id="servicesRow"></div>
+      <div class="plus-section-title">Popular on Netflix</div>
+      <div class="plus-movies-row" id="plusNetflixRow"></div>
+      <div class="plus-section-title">Popular on Max</div>
+      <div class="plus-movies-row" id="plusHBORow"></div>
+    </div>
+    <div class="categories-page" id="categoriesPage">
+      <div class="categories-header">Channel Categories</div>
+      <div id="categoryGroups"></div>
+    </div>
+  </main>
+  <footer class="footer-nav">
+    <div class="footer-item selected" id="navHome" onclick="switchTab('home')">
+      <span class="material-symbols-outlined footer-icon">home</span>
+      <span class="footer-label">Home</span>
+    </div>
+    <div class="footer-item plus" id="navPlus" onclick="switchTab('plus')">
+      <span class="material-symbols-outlined footer-icon">add</span>
+      <span class="footer-label">+</span>
+    </div>
+    <div class="footer-item" id="navCategories" onclick="switchTab('categories')">
+      <span class="material-symbols-outlined footer-icon">category</span>
+      <span class="footer-label">Categories</span>
+    </div>
+  </footer>
+  <!-- Player Modal -->
+  <div class="player-modal" id="playerModal">
+    <div class="player-box">
+      <span class="material-symbols-outlined player-close" onclick="closePlayer()">close</span>
+      <div id="shaka-player-container">
+        <video id="shaka-player" style="width:100%;height:100%;border-radius:10px;" controls autoplay poster="https://imgur.com/ZCslJnW.png"></video>
+      </div>
+      <div class="player-title" id="playerTitle"></div>
+      <div class="player-sub" id="playerSub"></div>
+    </div>
+  </div>
+  <!-- Search Modal -->
+  <div class="search-modal" id="searchModal">
+    <div class="search-bar-modal">
+      <input type="text" id="searchInput" placeholder="Search movies, series, or channels..." autocomplete="off" />
+      <span class="material-symbols-outlined" onclick="closeSearchModal()">close</span>
+    </div>
+    <div class="search-results-modal" id="searchResultsModal"></div>
+  </div>
+
+
+</body>
+</html>
