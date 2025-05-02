@@ -9,6 +9,20 @@
             background: #1a1a1a;
             color: #fff;
             overflow-x: hidden;
+    }
+
+    #wrapper {
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    #title {
+      font-size: 40px;
+      font-weight: bolder;
+      margin: 20px 0;
+      color: #3003fc;        }
+
         }
         .app-container {
             position: relative;
