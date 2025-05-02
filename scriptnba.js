@@ -41,18 +41,24 @@
             }
        const channels = [
 {
-        name: 'TV5',
-        logo: 'https://i.imgur.com/Ddyfzrn.png',
-        type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd',
-        keyId: '2615129ef2c846a9bbd43a641c7303ef',
-        key: '07c7f996b1734ea288641a68e1cfdc4d',
+        name: 'NBA TV Philippines',
+        logo: 'https://i.imgur.com/sG7zuX0.png',
+        type: '',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd',
+        keyId: 'f36eed9e95f140fabbc88a08abbeafff',
+        key: '0125600d0eb13359c28bdab4a2ebe75a',
                  },	 
          {        
 name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
         url: 'https://locked.pixelsport.to/psportsgate/psportsgate100/86.m3u8',
-        type: 'hls',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'
+        type: '',
+		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
+                 },	 
+         {        
+name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
+        url: 'https://locked.pixelsport.to/psportsgate/psportsgate100/86.m3u8',
+        type: '',
+		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'		 
          }
             ];	
 			
