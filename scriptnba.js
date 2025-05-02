@@ -1,21 +1,4 @@
-<div class="app-container">
-	<div class="player-container">
-            <div class="video-container">
-                <video id="player" controls></video>
-				<div id="liveIndicator">LIVE</div>
-    <iframe id="youtube-player" frameborder="0" allowfullscreen></iframe>
-				</div>
-        </div>
-        <div class="channel-list-container">
-            <div class="search-container">
-                <input type="text" class="search-input" placeholder="Search for channels here...">
-            </div>
-            <ul class="channel-list" id="channelList">
-                <!-- Channel items will be populated by JavaScript -->
-            </ul>
-        </div>
-    </div>
-    <script>
+
         document.addEventListener("DOMContentLoaded", async () => {
             const video = document.getElementById('player');
             const youtubeEmbed = document.getElementById('youtube-player');
