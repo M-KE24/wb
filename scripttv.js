@@ -727,27 +727,13 @@ name: 'Net 25',
         manifestUri: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_sdi2.mpd',
         clearKey: { '2f3056cac18d4e31a59de39767042b03': '83728946b898141ae411572f9f5fce0d' },
         category: "Pilipinas Live"
-	      },
-  {
-        name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
-        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
-        type: 'hls',
-        manifestUri: 'https://locked.pixelsport.to/psportsgate/psportsgate100/86.m3u8',
-        category: "NBA LEAGUE PASS"
-	      },
-  {
-        name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
-        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
-        type: 'hls',
-        manifestUri: 'https://locked.pixelsport.to/psportsgate/psportsgate100/86.m3u8',
-        category: "NBA LEAGUE PASS"
       },
 
     
     ];
 
     const categories = [
-      "Local", "Sports", "News", "Movies", "Kids", "Educational and Documentary", "Lifestyle","Pilipinas Live","NBA LEAGUE PASS"
+      "Local", "Sports", "News", "Movies", "Kids", "Educational and Documentary", "Lifestyle","Pilipinas Live"
     ];
 
 
