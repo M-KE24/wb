@@ -12,6 +12,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.12/hls.min.js"></script>
 </head>
 <body>
+<div class="app-container">
+	<div class="player-container">
+            <div class="video-container">
+                <video id="player" controls></video>
+				<div id="liveIndicator">LIVE</div>
+    <iframe id="youtube-player" frameborder="0" allowfullscreen></iframe>
+				</div>
+        </div>
+        <div class="channel-list-container">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for channels here...">
+            </div>
+            <ul class="channel-list" id="channelList">
+                <!-- Channel items will be populated by JavaScript -->
+            </ul>
+        </div>
+    </div>
+    <script>	
 <div id="337568128777264851" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div class="panel-default clearfix" style="background-image:
 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjE43i2XXWJnHseUNY8eqys0_2vl7pD-fCpw&usqp=CAU');
 background-repeat: no-repeat; background-size: 100% 100%; height:
