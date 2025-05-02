@@ -49,14 +49,14 @@
         key: '0125600d0eb13359c28bdab4a2ebe75a',
                  },	 
          {        
-name: 'GAME 6 - New York Knicks vs Detroit Pistons 7:30pm',
+name: 'GAME 6 - Houston Rockets vs Golden State Warriors 9:00am',
         url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
                  },	 
          {        
-name: 'GAME 6 - Denver Nuggets vs LA Clippers 10:00am',
-        url: 'https://locked.pixelsport.to/psportsgate/psportsgate100/90.m3u8',
+name: 'GAME 6 - Houston Rockets vs Golden State Warriors 9:00am server2',
+        url: 'https://v15.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'		 
          }
