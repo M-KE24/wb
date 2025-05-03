@@ -50,13 +50,13 @@
                  },	 
          {        
 name: 'GAME 7 - LA Clippers vs Denver Nuggets (server 1)',
-        url: 'https://v15.thetvapp.to/hls/space-city-home-network/tracks-v1a1/mono.m3u8',
+        url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
                  },	 
          {        
 name: 'GAME 7 - LA Clippers vs Denver Nuggets (server 1)',
-        url: 'https://v15.thetvapp.to/hls/space-city-home-network/tracks-v1a1/mono.m3u8',
+        url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'		 		 
          }
