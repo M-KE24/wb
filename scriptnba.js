@@ -67,7 +67,7 @@ name: 'BOXING - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VacP9Acsdku8axt_g6bIogmi7Zf5wE5D-AM3hwbHvuItM3N6s-w0Bsc&s=10'	 
          }
             ];	
-		Boxing - Naoya Inoue vs Ramon Cardenas 10am 5/5/25	
+			
 	async function cleanupPlayers() {
                 youtubeEmbed.src = '';
                 youtubeEmbed.style.display = 'none';
