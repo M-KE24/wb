@@ -49,19 +49,24 @@
         key: '0125600d0eb13359c28bdab4a2ebe75a',
                  },	 
          {        
-name: 'GAME 7 - LA Clippers vs Denver Nuggets (server 1)',
+name: 'NBA- GAME 1 - Cleveland Cavaliers vs Indiana Pacers ',
         url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
                  },	 
          {        
-name: 'GAME 7 - LA Clippers vs Denver Nuggets (server 1)',
-        url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
+name: 'NBA- GAME 7 - Houston Rockets vs Golden State Warriors (server 1)',
+        url: 'https://v12.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'		 		 
+		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
+	         {        
+name: 'BOXING - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
+        url: 'Boxing - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
+        type: 'hls',
+		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VacP9Acsdku8axt_g6bIogmi7Zf5wE5D-AM3hwbHvuItM3N6s-w0Bsc&s=10'	 
          }
             ];	
-			
+		Boxing - Naoya Inoue vs Ramon Cardenas 10am 5/5/25	
 	async function cleanupPlayers() {
                 youtubeEmbed.src = '';
                 youtubeEmbed.style.display = 'none';
