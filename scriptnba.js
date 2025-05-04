@@ -59,7 +59,8 @@ name: 'NBA- GAME 7 - Houston Rockets vs Golden State Warriors (server 1)',
         url: 'https://v12.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
-	         {        
+	                             },	 
+         {        
 name: 'BOXING - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
         url: 'https://pl2.falkonskyye.space/playlist/33769/a.oseanmountan.space/caxi',
         type: 'hls',
