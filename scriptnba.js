@@ -49,22 +49,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         key: '0125600d0eb13359c28bdab4a2ebe75a',
                  },	 
          {        
-name: 'NBA- GAME 1 - Cleveland Cavaliers vs Indiana Pacers ',
-        url: 'https://v8.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
-        type: 'hls',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
-                 },	 
-         {        
-name: 'NBA- GAME 7 - Houston Rockets vs Golden State Warriors (server 1)',
-        url: 'https://v12.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
+name: 'NBA- GAME 1 - New York Knicks vs Boston Celtics 7:00am ',
+        url: 'https://v16.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10',
 	                             },	 
          {        
-name: 'BOXING - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
-        url: 'https://c58bx6vat7sxiexj.freshsoup.shop/v3/director/VE1ZmU2YTVhYjZkMTQ5LTRiM2ItZmZmNC05ZDMxLWViYjMwNTIy/master.m3u8?md5=KV4P6-J3qOCBF_uVlFDQxg&expires=1746421200&net=MTgwLjE5MC4yMjMuMTMx',
+name: 'NBA- GAME 1- Denver Nuggetsvs vs Oklahoma City Thunder 9:30am',
+        url: 'https://v17.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8',
         type: 'hls',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VacP9Acsdku8axt_g6bIogmi7Zf5wE5D-AM3hwbHvuItM3N6s-w0Bsc&s=10'	 
+		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P3joEa5YrAYgs-W8KNl81HP2DHf-p0zSisFeWwV6W4pnkp8mfiwwF9I&s=10'	 
          }
             ];	
 			
