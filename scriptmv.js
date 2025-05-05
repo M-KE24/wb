@@ -676,50 +676,7 @@
         clearKey: { 'ef7d9dcfb99b406cb79fb9f675cba426': 'b24094f6ca136af25600e44df5987af4' },
         category: "NEWS"
       },
-  ];
-    const demoMovies = [
-      {
-        id: 'mv1',
-        title: 'Havoc',
-        img: 'https://imgur.com/lKiwSjT.png',
-        platform: 'Netflix',
-        price: '₱560.00',
-        rating: '64%',
-        type: 'movie',
-        description: 'A classic horror movie available on Netflix.',
-        url: 'https://www.netflix.com/ph-en/title/81709663?preventIntent=true'
-      },
-      {
-        id: 'mv2',
-        title: 'Novocaine',
-        img: 'https://i.imgur.com/MWkm5mH.jpg',
-        platform: 'Max',
-        price: '₱600.00',
-        rating: '81%',
-        type: 'movie',
-        description: 'Suspense drama on HBO.',
-        url: 'https://www.hbomax.com/feature/urn:hbo:feature:GXdb4hA5p-sLCwwEAAAB9'
-      }
-    ];
-    const streamingServices = [
-      { name: 'Netflix', img: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg', label: '', url: 'https://www.netflix.com/' },
-      { name: 'Max', img: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Max_logo.svg', label: '', url: 'https://www.max.com/' }
-    ];
-    // --- Build categories from channel data ---
-    function buildCategories() {
-      const cats = {};
-      for (const ch of streams) {
-        if (!cats[ch.category]) cats[ch.category] = [];
-        cats[ch.category].push(ch);
-      }
-      return cats;
-    }
-    // --- Slider Bar (Suggestions) ---
-    const suggestionSlides = [
-      // Use a mix of your best channels and movies/series for the slider
-      ...streams.slice(0, 4),
-      ...demoMovies.slice(0, 3),
-      ...streams.slice(4, 8),
+    
     ];
     function renderSliderBar() {
       const sliderBarInner = document.getElementById("sliderBarInner");
