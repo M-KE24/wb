@@ -62,7 +62,7 @@ name: 'NBA- GAME 7 - Houston Rockets vs Golden State Warriors (server 1)',
 	                             },	 
          {        
 name: 'BOXING - Naoya Inoue vs Ramon Cardenas 10am 5/5/25',
-        url: 'https://pl2.falkonskyye.space/playlist/33769/a.oseanmountan.space/caxi',
+        url: 'https://pl.gntleclud.space/playlist/33769/a.hapytre.space/caxi',
         type: 'hls',
 		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VacP9Acsdku8axt_g6bIogmi7Zf5wE5D-AM3hwbHvuItM3N6s-w0Bsc&s=10'	 
          }
