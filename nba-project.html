@@ -40,17 +40,18 @@ background-repeat: no-repeat; background-size: 100% 100%; height:
         </div>
     </div>    
 
-<div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
 
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="chat-message received">Hello! How can I assist you today?</div>
+        </div>
+        <div class="user-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
 
-    <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
+
 
 
 <link rel="stylesheet" href="stylenba.css">
