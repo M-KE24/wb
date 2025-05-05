@@ -196,70 +196,23 @@
   transform: scale(1.4); /* Enlarge the icon */
         }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+#forum-container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: sans-serif;
 }
 
-.chat-container {
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 8px;
-    width: 300px;
-    overflow-y: auto;
-    max-height: 400px;
+#forum-header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
 }
 
-.chat-box {
-    display: flex;
-    flex-direction: column;
+#forum-posts {
+  padding: 10px;
 }
 
-.chat-message {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    max-width: 70%;
-}
-
-.received {
-    background-color: #dff2e9; /* Light green */
-    align-self: flex-start;
-}
-
-.sent {
-    background-color: #c3d9fa; /* Light blue */
-    align-self: flex-end;
-}
-
-.user-input {
-    margin-top: 20px;
-}
-
-input[type="text"] {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 200px;
-    margin-right: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4caf50; /* Green */
-    color: #fff;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049; /* Darker green */
+#post-form {
+  padding: 10px;
 }
 
