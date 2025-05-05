@@ -1,4 +1,13 @@
-        document.addEventListener("DOMContentLoaded", async () => {
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+document.addEventListener("DOMContentLoaded", async () => {
             const video = document.getElementById('player');
             const youtubeEmbed = document.getElementById('youtube-player');
             const searchInput = document.querySelector('.search-input');
