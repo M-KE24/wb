@@ -1,23 +1,4 @@
-document.querySelectorAll('.channel-item').forEach(item => {
-                    item.addEventListener('click', async () => {
-                        const channel = channels[parseInt(item.dataset.channelIndex)];
-                        currentChannel = channel;
-                        await playStream(channel);
-                        
-                        document.querySelectorAll('.channel-item').forEach(i => i.classList.remove('active'));
-                        item.classList.add('active');
-                    });
-                });
-            }
-
-            renderChannelList(channels);
-            if (channels.length > 0) {
-                currentChannel = channels[0];
-                await playStream(currentChannel);
-            }
-
-
-const streams = [
+    const streams = [
       {
         name: 'TV5',
         logo: 'https://i.imgur.com/Ddyfzrn.png',
