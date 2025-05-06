@@ -1,4 +1,47 @@
-    const streams = [
+
+document.addEventListener("DOMContentLoaded", async () => {
+            const video = document.getElementById('player');
+            const youtubeEmbed = document.getElementById('youtube-player');
+            const searchInput = document.querySelector('.search-input');
+            const channelList = document.getElementById('channelList');
+            
+            let currentChannel = null;
+            let shakaPlayer = null;
+            let hlsPlayer = null;
+
+            // Initialize Shaka Player
+            shaka.polyfill.installAll();
+
+            function initializeShakaPlayer() {
+                if (shakaPlayer) {
+                    shakaPlayer.destroy();
+                }
+                shakaPlayer = new shaka.Player(video);
+                shakaPlayer.addEventListener('error', (error) => {
+                    console.error('Shaka Player Error:', error);
+                });
+                return shakaPlayer;
+            }
+
+            function initializeHLSPlayer() {
+                if (hlsPlayer) {
+                    hlsPlayer.destroy();
+                }
+                if (Hls.isSupported()) {
+                    hlsPlayer = new Hls({
+                        enableWorker: true,
+                        lowLatencyMode: true
+                    });
+                    hlsPlayer.attachMedia(video);
+                    hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
+                        console.error('HLS.js Error:', data);
+                    });
+                    return hlsPlayer;
+                }
+                return null;
+            }
+
+const streams = [
       {
         name: 'TV5',
         logo: 'https://i.imgur.com/Ddyfzrn.png',
